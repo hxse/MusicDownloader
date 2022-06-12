@@ -104,7 +104,7 @@ def Music():
     for counter, data in enumerate(data):
         counter += 1
         if counter <= skip:
-            print(f"{counter} skip {data["name"]}")
+            print(f"{counter} skip {data['name']}")
             continue
         # os.system("cls")
         print(str(counter) + " " + data["name"])
